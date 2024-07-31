@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "veto@myridia.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Simple logger to a textarea",
+  "homepage": "https://calantas.org/lgo2textarea",
+  "license": "GPL-3.0-or-later",
+  "main": "log2textarea.js",
+  "name": "log2textarea",
+  "repository": {
+    "type": "hg",
+    "url": "https://calantas.org/log2textarea"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.1"
+}
