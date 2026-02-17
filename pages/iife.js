@@ -1,4 +1,4 @@
-var log = new Log2textarea.Log2textarea("logger");
+var log = new Log2textarea("logger");
 
 window.onload = function () {
   const $button1 = document.querySelector("#btn_1");

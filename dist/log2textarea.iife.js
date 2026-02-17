@@ -1,3 +1,3 @@
-var Log2textarea=(function(o){"use strict";class l{constructor(t,e="xIt Logs! Logs assigned to Textarea  id: "+t,i=!0){this.log=document.querySelector("#"+t),this.log||(this.log=document.createElement("TEXTAREA")),i&&this.clear(),this.info(e)}async info(t){if(this.log){let e=this.log.value+`
+var Log2textarea=(function(o){"use strict";class l{constructor(t,e="It Logs! Logs assigned to Textarea  id: "+t,i=!0){this.log=document.querySelector("#"+t),this.log||(this.log=document.createElement("TEXTAREA")),i&&this.clear(),this.info(e)}async info(t){if(this.log){let e=this.log.value+`
 `+t;this.log.value=e,this.log.scrollTop=this.log.scrollHeight}}async clear(){this.log&&(this.log.value="",this.log.scrollTop=this.log.scrollHeight)}async remove(t){if(this.log){const e=new RegExp(t+`
 `,"g");this.log.value=this.log.value.replace(e,"")}}}return window.Log2textarea=l,o.Log2textarea=l,Object.defineProperty(o,Symbol.toStringTag,{value:"Module"}),o})({});
