@@ -1,12 +1,12 @@
-# ![email_gateway](pages//img/logo.png) log2textarea
+# ![email_gateway](pages/public/img/logo.png) log2textarea
 Simple logger to your textarea DOM
 
 Demo:
-https://log2textarea.calantas.org
+https://log2textarea.myridia.com
 
 
-#Usage:
-Add a textarea tag to your website html:
+# Usage for Browser:
+Add a textarea tag to your website HTML:
 
 ```
 <textarea id="foo" rows="25" cols="80"></textarea>
@@ -28,7 +28,7 @@ example:
 * 3 parameter: clear log after load new page, default is true
 
 ```
-let log = new Log2textarea("foo");
+const log = new Log2textarea("foo");
 log.info("hello");
 log.clear("");
 log.info("hello again");
@@ -37,4 +37,12 @@ log.info("hello again");
 
 
 ```
-supported formats: csv, xlsx, xls
+
+
+# Usage for Module Browser:
+
+```
+import { Log2textarea } from 'log2textarea';
+const log = new Log2textarea("foo"); 
+
+```
