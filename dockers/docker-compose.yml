@@ -6,7 +6,7 @@ services:
         - "80:80" 
         - "443:443" 
     volumes:
-      - ../pages:/usr/share/nginx/html/
+      - ../pages/public:/usr/share/nginx/html/
       - ./etc/nginx/conf.d:/etc/nginx/conf.d
       - ./etc/nginx/mime.types:/etc/nginx/mime.types     
     tty: true
