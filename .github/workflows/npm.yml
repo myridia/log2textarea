@@ -1,5 +1,5 @@
 name: Publish Package to npmjs
-on: push
+on: release
 permissions:
   id-token: write  # Required for OIDC
   contents: read
