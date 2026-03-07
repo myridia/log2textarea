@@ -13,6 +13,8 @@ read task
     
 if [ "$task" = "1" ]; then
     echo "...${task}"
+    npm run build
+    cp -Rf dist pages/public/
     cd dockers
     docker-compose up -d
     echo "Go to:"
