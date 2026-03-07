@@ -1,9 +1,7 @@
 name: Pages Upload 
-on:
-  push:
-    branches:
-     - "*"
-  workflow_dispatch:
+on: release
+
+workflow_dispatch:
 permissions:
   contents: read
   pages: write
