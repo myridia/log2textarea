@@ -45,10 +45,11 @@ Init
 */
   async info(s) {
     if (this.log) {
+      let t = this.log.value ;
       if (this.top) {
-        let t = this.log.value + "\n" + s;
+        t = s + "\n" +this.log.value ;
       } else {
-        let t = this.log.value + "\n" + s;
+        t = this.log.value + "\n" + s;
       }
       this.log.value = t;
       this.log.scrollTop = this.log.scrollHeight;

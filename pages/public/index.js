@@ -1,5 +1,6 @@
 import { Log2textarea } from "./dist/log2textarea.esm.js";
-var log = new Log2textarea("logger",true,true);
+// 4 parameter dom id, starter message, clear, on top message
+var log = new Log2textarea("logger", "my message", true, true);
 
 window.onload = function () {
   const $button1 = document.querySelector("#btn_1");
