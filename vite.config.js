@@ -10,7 +10,7 @@ export default defineConfig({
       fileName: (format) => `log2textarea.${format}.js`, // Output file name
       formats: ["iife", "umd", "cjs", "esm"], // Output format (UMD for browser compatibility)
     },
-    outDir: "../pages/dist", // Output directory
+    outDir: "../dist", // Output directory
     emptyOutDir: true, // also necessary
   },
 });
