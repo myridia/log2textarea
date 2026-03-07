@@ -1,5 +1,5 @@
 name: Pages Upload 
-on: release
+on: push
 
 workflow_dispatch:
 permissions:
