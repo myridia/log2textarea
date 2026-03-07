@@ -31,7 +31,7 @@ jobs:
 
       - name: setup project         
         run: |
-             npm install --package-lock-only
+             npm install -D
              npm run build --if-present
              cp dist dist pages/public/ -Rf
 
