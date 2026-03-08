@@ -2,8 +2,7 @@
 Simple logger to your textarea DOM
 
 Demo:
-https://log2textarea.calantas.org
-
+https://log2textarea.myridia.com/umd.html
 
 #Usage:
 Add a textarea tag to your website html:
