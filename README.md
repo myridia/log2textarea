@@ -2,6 +2,8 @@
 
 A simple JavaScript library to redirect `console.log`, `console.warn`, `console.error`, and `console.info` output to a textarea element on your webpage.  This is particularly useful for debugging web applications, especially in environments where the browser's developer console is not readily available (e.g., mobile devices, embedded systems).
 
+Demp: https://log2textarea.myridia.com/umd.html 
+
 [![npm version](https://badge.fury.io/js/log2textarea.svg)](https://badge.fury.io/js/log2textarea)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
