@@ -32,8 +32,7 @@ jobs:
      - name: build and publish
        run: |
          npm install --package-lock-only
+         npm cli
          npm run build --if-present
-         cp /dist/log2textarea.umd.js /dist/log2textarea.js
-         npm ci
          npm publish --provenance --access public
   
