@@ -19,7 +19,7 @@
     "copy": "cp ./dist/log2textarea.umd.js ./dist/log2textarea.js",
     "dev": "vite"    
   },
-  "version": "2.2.2",
+  "version": "2.2.3",
   "devDependencies": {
     "vite": "^7.3.1"
   }
