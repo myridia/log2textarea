@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build & cp /dist/log2textarea.umd.js /dist/log2textarea.js"
+    "build": "vite build & cp ./dist/log2textarea.umd.js ./dist/log2textarea.js"
 ,
     "dev": "vite"    
   },
