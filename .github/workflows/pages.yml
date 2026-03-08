@@ -33,6 +33,7 @@ jobs:
         run: |
              npm install -D
              npm run build --if-present
+             npm run copy 
              cp dist dist pages/public/ -Rf
 
       - name: Setup Pages
